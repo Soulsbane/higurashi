@@ -1,0 +1,22 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.firefly {
+  width:4px;
+  height:4px;
+  position:absolute;
+  background-color: gold;
+  box-shadow:0px 0px 17px 2px wheat;
+  border-radius: 50%;
+}
+
+.container {
+  position: relative;
+  background-image: url("../images/misty_forest_night.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
