@@ -2,7 +2,6 @@ const NUMBER_OF_FIREFLIES = 25;
 const $CONTAINER = $(".container");
 const $CONTAINER_WIDTH = $CONTAINER.width();
 const $CONTAINER_HEIGHT = $CONTAINER.height();
-//var master = new TimelineMax();
 
 for(var i = 0; i < NUMBER_OF_FIREFLIES; i++) {
 	var firefly = $('<div class="firefly"></div>');
