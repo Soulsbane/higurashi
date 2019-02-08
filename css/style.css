@@ -1,6 +1,10 @@
 body, html {
+  position: relative;
+  background-image: url("../images/misty_forest_night.jpeg");
   height: 100%;
-  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .firefly {
@@ -13,10 +17,9 @@ body, html {
 }
 
 .container {
-  position: relative;
-  background-image: url("../images/misty_forest_night.jpeg");
+  position: absolute;
+  width: 100%;
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  top: 0;
 }
+
