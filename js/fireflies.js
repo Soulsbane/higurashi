@@ -3,7 +3,7 @@ const $CONTAINER = $(".container");
 const $CONTAINER_WIDTH = $CONTAINER.width();
 const $CONTAINER_HEIGHT = $CONTAINER.height();
 
-for(var i = 0; i < NUMBER_OF_FIREFLIES; i++) {
+for (var i = 0; i < NUMBER_OF_FIREFLIES; i++) {
 	var firefly = $('<div class="firefly"></div>');
 
 	TweenLite.set(firefly, {
@@ -30,7 +30,7 @@ function flyTheFirefly(firefly) {
 		Math.floor(Math.random() * 6) + 1
 	);
 
-	flyTl.set(firefly, {scale: Math.random() * 0.75 + 0.5})
+	flyTl.set(firefly, { scale: Math.random() * 0.75 + 0.5 })
 		.to(firefly, Math.random() * 100 + 100, {
 			bezier: {
 				values: [
