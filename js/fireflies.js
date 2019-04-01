@@ -1,5 +1,5 @@
 const NUMBER_OF_FIREFLIES = 25;
-const $CONTAINER = $(".container");
+const $CONTAINER = $("#nighttimeForestBackground");
 const $CONTAINER_WIDTH = $CONTAINER.width();
 const $CONTAINER_HEIGHT = $CONTAINER.height();
 
