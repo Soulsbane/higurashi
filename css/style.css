@@ -1,19 +1,22 @@
-body, html {
-	position: relative;
-	background-image: url("../images/misty.forest.night.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+body {
+	margin: 0px;
 }
 
-.firefly {
+#firefly {
 	width:4px;
 	height:4px;
 	position:absolute;
 	background-color: gold;
 	box-shadow:0px 0px 17px 2px wheat;
 	border-radius: 50%;
+}
+
+#nighttimeForestBackground {
+	background-image: url("../images/misty.forest.night.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
 }
 
 .container {

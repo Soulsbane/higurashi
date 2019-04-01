@@ -4,7 +4,7 @@ const $CONTAINER_WIDTH = $CONTAINER.width();
 const $CONTAINER_HEIGHT = $CONTAINER.height();
 
 for (var i = 0; i < NUMBER_OF_FIREFLIES; i++) {
-	var firefly = $('<div class="firefly"></div>');
+	var firefly = $('<div id="firefly"></div>');
 
 	TweenLite.set(firefly, {
 		x: Math.random() * $CONTAINER_WIDTH,
